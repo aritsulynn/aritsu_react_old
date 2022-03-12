@@ -9,6 +9,7 @@ export default function footer(){
                 <a href="https://discord.gg/jZSSD4qtSk"><i class="bi bi-discord"></i></a>
                 <a href="https://www.facebook.com/lynniswaifu/"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/uandlynn/"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/UandLynn"><i class="bi bi-twitter"></i></a>
                 <a href="https://github.com/lynniswaifu"><i class="bi bi-github"></i></a>
         </Grid>
     );
