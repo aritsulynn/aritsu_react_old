@@ -1,36 +1,10 @@
-html, body{
+html, body, #root, .Grida{
   height: 100%;
   width: 100%;
-  position: relative;
-}
-
-.icon{
-  margin-top: 2%;
-  text-align: center;
-}
-
-a{
-  align-items: center;
-  text-align: center;
-  margin-left: 25px;
-}
-
-.venpls{
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  /* position: relative; */
 }
 
 .img{
-  margin-top: 0.5%;
-  width: 24%;
-}
-
-@media screen and (max-width: 600px){
-  .img{
-    width: 80%;
-  }
-}
+  width: 70%;
+} 
 

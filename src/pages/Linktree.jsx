@@ -1,7 +1,5 @@
 import { Helmet } from 'react-helmet';
-import theme from "../components/Theme";
-import Image from 'react-bootstrap/Image'
-import Button from 'react-bootstrap/Button';
+import { darkTheme } from "../components/Theme/darkTheme";
 import Footer from '../components/Footer';
 import "../App.css"
 import{
@@ -9,16 +7,17 @@ import{
   MuiThemeProvider,
   Typography,
 } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 
 export default function Linktree() {
   return (
-    <div className="App">
+    <Grid container className="Grida"justifyContent="center" alignContent="center" style={{ alignItems: "center", textAlign:"center"}} direction="column">
       <Helmet>
         <title>Ritsu's | Linktree</title>
       </Helmet>
-      <MuiThemeProvider theme={theme}>
+      <MuiThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <div className="text-center" style={{ paddingTop:"5%" }}>
+        <Grid item className="text-center">
           <img
             class="rounded-circle img-fluid"
             src="https://i.imgur.com/QvuA6Lp.jpg"
@@ -26,21 +25,18 @@ export default function Linktree() {
             width="300"
             height="150"
           />
-        </div>
+        </Grid>
 
-        <div class="text-center" style={{  color: "white", marginTop: "2%"}}>
-          <Typography variant="h3">
+        <Grid item class="text-center" style={{  color: "white", marginTop: "2%"}}>
+          <Typography variant='h3'>
             Ritsu's Linktree
           </Typography>
           <Typography variant="subtitle1" style={{paddingLeft: "2%", paddingRight :"2%"}}>
             Hi, I'm Lynn who love anime and manga for along time! if you mind to be friends about that feel free to contact me!
           </Typography>
-        </div>
-        <div className='icon'>
           <Footer />
-        </div>
-        
+        </Grid>
       </MuiThemeProvider>
-    </div>
+    </Grid>
   );
 }

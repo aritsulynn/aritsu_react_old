@@ -8,7 +8,6 @@ import Notfound from './pages/Notfound';
 import Anime from './pages/Anime';
 import Discord from './pages/Discord';
 import Linktree from './pages/Linktree';
-
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
