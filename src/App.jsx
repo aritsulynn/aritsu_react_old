@@ -20,6 +20,8 @@ function App() {
       <Grid container className="Grida" justifyContent="center" alignContent="center" style={{ alignItems: "center", textAlign:"center"}} direction="column">
         <Helmet>
           <title>Ritsu's | Home</title>
+          <meta name="description" content="Ritsu's Home. :)" />
+          <meta name="og:image" content="https://i.pinimg.com/564x/c7/b7/b2/c7b7b2a5dab1d84689961d8fc11ca2e8.jpg"/>
         </Helmet>
         <CssBaseline />
         <Grid item>
