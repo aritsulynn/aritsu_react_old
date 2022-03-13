@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { darkTheme } from "../components/Theme/darkTheme";
+import darkTheme  from "../components/Theme/darkTheme";
 import Footer from '../components/Footer';
 import "../App.css"
 import{

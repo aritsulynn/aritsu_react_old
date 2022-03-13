@@ -1,5 +1,5 @@
 import { Typography, MuiThemeProvider, CssBaseline, Button } from "@material-ui/core";
-import { darkTheme } from "../components/Theme/darkTheme";
+import darkTheme from "../components/Theme/darkTheme";
 import { Helmet } from 'react-helmet';
 import Footer from '../components/Footer';
 
@@ -9,7 +9,7 @@ import Grid from "@material-ui/core/Grid";
 
 export default function Notfound(){
     return(
-        <Grid container className="Grida"justifyContent="center" alignContent="center" style={{ alignItems: "center", textAlign:"center"}} direction="column">
+        <Grid container className="Grida" justifyContent="center" alignContent="center" style={{ alignItems: "center", textAlign:"center"}} direction="column">
             <Helmet>
                 <title>Ritsu's | 404</title>
             </Helmet>

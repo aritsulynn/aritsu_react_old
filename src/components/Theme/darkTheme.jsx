@@ -1,7 +1,7 @@
 import { createTheme } from "@material-ui/core";
 
 
-export const darkTheme = createTheme({
+const darkTheme = createTheme({
   palette: {
       background: {
         default: "#222222"
@@ -12,6 +12,16 @@ export const darkTheme = createTheme({
     },
   typography: {
     fontFamily: "Josefin Sans",
+  },
+  overrides: {
+    MuiButton: {
+      containedPrimary: {
+        backgroundColor: "black!important",
+      }
+    }
   }
 
 });
+
+
+export default darkTheme;
