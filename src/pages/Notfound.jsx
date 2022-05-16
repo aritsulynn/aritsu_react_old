@@ -10,9 +10,9 @@ import Grid from "@material-ui/core/Grid";
 export default function Notfound(){
     return(
         <Grid container className="Grida" justifyContent="center" alignContent="center" style={{ alignItems: "center", textAlign:"center"}} direction="column">
-            <Helmet>
+            {/* <Helmet>
                 <title>Ritsu's | 404</title>
-            </Helmet>
+            </Helmet> */}
             <MuiThemeProvider theme={darkTheme}>
                 <CssBaseline />
                 <Grid item style={{textAlign:"center"}}>

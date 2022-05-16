@@ -12,9 +12,9 @@ import { Grid } from "@material-ui/core";
 export default function Linktree() {
   return (
     <Grid container className="Grida"justifyContent="center" alignContent="center" style={{ alignItems: "center", textAlign:"center"}} direction="column">
-      <Helmet>
+      {/* <Helmet>
         <title>Ritsu's | Linktree</title>
-      </Helmet>
+      </Helmet> */}
       <MuiThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Grid item className="text-center">
